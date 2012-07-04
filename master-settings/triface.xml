@@ -1,0 +1,5 @@
+<properties>
+    <property key="fovy" value="60"></property>
+    <property key="pos" value="1.2,0.48,0"></property>
+    <property key="rot" value="0,0,0"></property>
+</properties>

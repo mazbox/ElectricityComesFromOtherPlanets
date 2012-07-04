@@ -1,0 +1,60 @@
+//
+//  Face.h
+//  SphereMapper
+//
+//  Created by Marek Bereza on 16/05/2012.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//
+
+#pragma once
+
+#include "ofMain.h"
+
+class Face {
+public:
+	
+	void drawFade(float t, const ofFloatColor &a, const ofFloatColor &b) {
+		
+		// only draw fades for shapes that are 3-4 sides
+		if(verts.size()<3 || verts.size()>4) {
+			printf("Face doesn't have 3 or 4 sides\n");
+			return;
+		}
+		
+		if(verts.size()==4) {
+			glBegin(GL_QUADS);
+		} else {
+			glBegin(GL_TRIANGLES);
+		}
+		
+		ofFloatColor c = a * t + b * (1.f-t);
+
+		ofSetColor(c);
+		for(int i = 0; i < verts.size(); i++) {
+			norm(norms[i]);
+			vert(verts[i].x);
+		}
+		glEnd();
+	}
+	
+	
+	vector<ofVec3f> verts;
+	vector<ofVec3f> norms;
+	
+	void vert(const ofVec3f &v) {
+		glVertex3f(v.x, v.y, v.z);
+	}
+	
+	void norm(const ofVec3f &v) {
+		glNormal3f(v.x, v.y, v.z);
+	}
+	
+	void normAndVert(const ofVec3f &n, const ofVec3f &v) {
+		norm(n);
+		vert(v);
+	}
+	void normAndVert(int index) {
+		norm(norms[index]);
+		vert(verts[index]);
+	}
+};

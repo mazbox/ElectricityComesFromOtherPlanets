@@ -1,0 +1,42 @@
+<controls>
+    <Toggle_Enable_shader>
+        <name>Enable shader</name>
+        <value>1</value>
+    </Toggle_Enable_shader>
+    <SliderFloat_pos.x>
+        <name>pos.x</name>
+        <value>0.23</value>
+    </SliderFloat_pos.x>
+    <SliderFloat_pos.y>
+        <name>pos.y</name>
+        <value>1.31</value>
+    </SliderFloat_pos.y>
+    <SliderFloat_pos.z>
+        <name>pos.z</name>
+        <value>3.16</value>
+    </SliderFloat_pos.z>
+    <SliderFloat_rot.x>
+        <name>rot.x</name>
+        <value>-12.6</value>
+    </SliderFloat_rot.x>
+    <SliderFloat_rot.y>
+        <name>rot.y</name>
+        <value>-30.6</value>
+    </SliderFloat_rot.y>
+    <SliderFloat_rot.z>
+        <name>rot.z</name>
+        <value>0</value>
+    </SliderFloat_rot.z>
+    <SliderFloat_floor.y>
+        <name>floor.y</name>
+        <value>-0.72</value>
+    </SliderFloat_floor.y>
+    <SliderFloat_stageRot>
+        <name>stageRot</name>
+        <value>-77.4</value>
+    </SliderFloat_stageRot>
+    <Toggle_lightsEyeView>
+        <name>lightsEyeView</name>
+        <value>0</value>
+    </Toggle_lightsEyeView>
+</controls>

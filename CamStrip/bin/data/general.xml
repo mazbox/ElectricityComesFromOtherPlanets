@@ -1,0 +1,9 @@
+<properties>
+    <property key="appId" value="1"></property>
+    <property key="oscHost" value="localhost"></property>
+    <property key="oscPort" value="24680"></property>
+    <property key="strip0" value="0"></property>
+    <property key="strip1" value="1"></property>
+    <property key="strip2" value="2"></property>
+    <property key="strip3" value="3"></property>
+</properties>

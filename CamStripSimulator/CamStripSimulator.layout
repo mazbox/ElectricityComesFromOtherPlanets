@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="..\..\..\addons\ofxMidi\libs\RtMidi.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="67969" topLine="2029" />
+	</File>
+	<File name="..\..\..\addons\ofxMidi\src\ofxMidi.h" open="1" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\..\..\addons\ofxMidi\src\ofxMidiOut.h" open="1" top="0" tabpos="5">
+		<Cursor position="0" topLine="10" />
+	</File>
+	<File name="src\testApp.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1162" topLine="31" />
+	</File>
+	<File name="src\testApp.h" open="1" top="0" tabpos="1">
+		<Cursor position="57" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

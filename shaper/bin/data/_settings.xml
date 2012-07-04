@@ -1,0 +1,14 @@
+<controls>
+    <SliderInt_StepA>
+        <name>StepA</name>
+        <value>5</value>
+    </SliderInt_StepA>
+    <SliderInt_StepB>
+        <name>StepB</name>
+        <value>3</value>
+    </SliderInt_StepB>
+    <SliderInt_twist>
+        <name>twist</name>
+        <value>1</value>
+    </SliderInt_twist>
+</controls>

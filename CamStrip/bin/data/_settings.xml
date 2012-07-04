@@ -1,0 +1,50 @@
+<controls>
+    <Toggle_record>
+        <name>record</name>
+        <value>0</value>
+    </Toggle_record>
+    <SliderFloat_Min>
+        <name>Min</name>
+        <value>3720</value>
+    </SliderFloat_Min>
+    <SliderFloat_Max>
+        <name>Max</name>
+        <value>8000</value>
+    </SliderFloat_Max>
+    <SliderInt_Blur>
+        <name>Blur</name>
+        <value>2</value>
+    </SliderInt_Blur>
+    <Toggle_Draw_Threshold>
+        <name>Draw Threshold</name>
+        <value>0</value>
+    </Toggle_Draw_Threshold>
+    <SliderInt_Threshold>
+        <name>Threshold</name>
+        <value>105</value>
+    </SliderInt_Threshold>
+    <Toggle_Cam_0flip_X>
+        <name>Cam 0flip X</name>
+        <value>0</value>
+    </Toggle_Cam_0flip_X>
+    <Toggle_Cam_0flip_Y>
+        <name>Cam 0flip Y</name>
+        <value>0</value>
+    </Toggle_Cam_0flip_Y>
+    <SliderFloat_maxY_0>
+        <name>maxY 0</name>
+        <value>26.4</value>
+    </SliderFloat_maxY_0>
+    <Toggle_Cam_1flip_X>
+        <name>Cam 1flip X</name>
+        <value>0</value>
+    </Toggle_Cam_1flip_X>
+    <Toggle_Cam_1flip_Y>
+        <name>Cam 1flip Y</name>
+        <value>0</value>
+    </Toggle_Cam_1flip_Y>
+    <SliderFloat_maxY_1>
+        <name>maxY 1</name>
+        <value>178.8</value>
+    </SliderFloat_maxY_1>
+</controls>

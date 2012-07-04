@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="..\..\..\addons\ofxFourUpDisplay\ofxFourUpDisplay.cpp" open="0" top="0" tabpos="45">
+		<Cursor position="339" topLine="7" />
+	</File>
+	<File name="..\..\..\addons\ofxOBJModel\ofxOBJFace.cpp" open="0" top="0" tabpos="39">
+		<Cursor position="1938" topLine="79" />
+	</File>
+	<File name="..\..\..\addons\ofxOBJModel\ofxOBJFace.h" open="0" top="0" tabpos="38">
+		<Cursor position="204" topLine="0" />
+	</File>
+	<File name="..\..\..\addons\ofxOBJModel\ofxOBJGroup.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="650" topLine="18" />
+	</File>
+	<File name="..\..\..\addons\ofxOBJModel\ofxOBJGroup.h" open="0" top="0" tabpos="42">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\..\..\addons\ofxOBJModel\ofxOBJModel.cpp" open="0" top="0" tabpos="37">
+		<Cursor position="7948" topLine="289" />
+	</File>
+	<File name="..\..\..\addons\ofxOBJModel\ofxOBJModel.h" open="0" top="0" tabpos="36">
+		<Cursor position="1460" topLine="21" />
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.h" open="0" top="0" tabpos="43">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\PacketListener.h" open="0" top="0" tabpos="44">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\UdpSocket.cpp" open="0" top="0" tabpos="41">
+		<Cursor position="1402" topLine="21" />
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscReceiver.h" open="0" top="0" tabpos="42">
+		<Cursor position="1834" topLine="17" />
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscSender.h" open="0" top="0" tabpos="40">
+		<Cursor position="2124" topLine="0" />
+	</File>
+	<File name="..\..\..\addons\ofxSettings\ofxSettings.cpp" open="0" top="0" tabpos="46">
+		<Cursor position="2366" topLine="83" />
+	</File>
+	<File name="..\..\..\addons\ofxSettings\ofxSettings.h" open="0" top="0" tabpos="45">
+		<Cursor position="846" topLine="0" />
+	</File>
+	<File name="..\..\..\addons\tricks\src\tricks\animation\animation.h" open="0" top="0" tabpos="39">
+		<Cursor position="1216" topLine="63" />
+	</File>
+	<File name="..\..\..\addons\xmlgui\container\SimpleGui.h" open="0" top="0" tabpos="21">
+		<Cursor position="432" topLine="0" />
+	</File>
+	<File name="..\..\..\addons\xmlgui\controls\LabeledControl.h" open="0" top="0" tabpos="28">
+		<Cursor position="451" topLine="0" />
+	</File>
+	<File name="..\..\..\addons\xmlgui\controls\List.h" open="0" top="0" tabpos="24">
+		<Cursor position="3688" topLine="163" />
+	</File>
+	<File name="..\..\..\addons\xmlgui\controls\Panner.h" open="0" top="0" tabpos="27">
+		<Cursor position="829" topLine="20" />
+	</File>
+	<File name="..\..\..\addons\xmlgui\controls\Slider.h" open="0" top="0" tabpos="29">
+		<Cursor position="2490" topLine="69" />
+	</File>
+	<File name="..\..\..\addons\xmlgui\framework\Container.cpp" open="0" top="0" tabpos="23">
+		<Cursor position="3235" topLine="111" />
+	</File>
+	<File name="..\..\..\addons\xmlgui\framework\Container.h" open="0" top="0" tabpos="26">
+		<Cursor position="1563" topLine="21" />
+	</File>
+	<File name="..\..\..\addons\xmlgui\framework\Control.cpp" open="0" top="0" tabpos="22">
+		<Cursor position="1729" topLine="57" />
+	</File>
+	<File name="..\..\..\addons\xmlgui\framework\Control.h" open="0" top="0" tabpos="25">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\Face.h" open="0" top="0" tabpos="8">
+		<Cursor position="1562" topLine="55" />
+	</File>
+	<File name="src\Fan.h" open="0" top="0" tabpos="5">
+		<Cursor position="211" topLine="0" />
+	</File>
+	<File name="src\L.h" open="0" top="0" tabpos="10">
+		<Cursor position="535" topLine="30" />
+	</File>
+	<File name="src\Ladder.h" open="0" top="0" tabpos="10">
+		<Cursor position="913" topLine="28" />
+	</File>
+	<File name="src\MidiNotes.h" open="0" top="0" tabpos="14">
+		<Cursor position="12" topLine="0" />
+	</File>
+	<File name="src\Moire.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="1634" topLine="69" />
+	</File>
+	<File name="src\Moire.h" open="1" top="0" tabpos="4">
+		<Cursor position="1262" topLine="14" />
+	</File>
+	<File name="src\Moire2.h" open="1" top="1" tabpos="5">
+		<Cursor position="1213" topLine="46" />
+	</File>
+	<File name="src\PlanetProgram.h" open="1" top="0" tabpos="7">
+		<Cursor position="3795" topLine="158" />
+	</File>
+	<File name="src\QuadFace.h" open="0" top="0" tabpos="7">
+		<Cursor position="5972" topLine="28" />
+	</File>
+	<File name="src\Star.h" open="0" top="0" tabpos="48">
+		<Cursor position="1493" topLine="24" />
+	</File>
+	<File name="src\TriFace.h" open="0" top="0" tabpos="1">
+		<Cursor position="728" topLine="15" />
+	</File>
+	<File name="src\Trigger.h" open="0" top="0" tabpos="38">
+		<Cursor position="635" topLine="0" />
+	</File>
+	<File name="src\planets\CubeCubeProgram.cpp" open="0" top="0" tabpos="47">
+		<Cursor position="185" topLine="0" />
+	</File>
+	<File name="src\planets\CubeCubeProgram.h" open="0" top="0" tabpos="15">
+		<Cursor position="395" topLine="0" />
+	</File>
+	<File name="src\planets\DiamondProgram.h" open="0" top="0" tabpos="16">
+		<Cursor position="345" topLine="0" />
+	</File>
+	<File name="src\planets\FiveCubesProgram.h" open="0" top="0" tabpos="5">
+		<Cursor position="292" topLine="0" />
+	</File>
+	<File name="src\planets\HexProgram.cpp" open="0" top="0" tabpos="51">
+		<Cursor position="613" topLine="13" />
+	</File>
+	<File name="src\planets\HexProgram.h" open="0" top="0" tabpos="17">
+		<Cursor position="270" topLine="0" />
+	</File>
+	<File name="src\planets\TowersProgram.cpp" open="0" top="0" tabpos="56">
+		<Cursor position="1507" topLine="0" />
+	</File>
+	<File name="src\planets\TowersProgram.h" open="0" top="0" tabpos="18">
+		<Cursor position="670" topLine="46" />
+	</File>
+	<File name="src\planets\TriFaceProgram.h" open="1" top="0" tabpos="1">
+		<Cursor position="206" topLine="0" />
+	</File>
+	<File name="src\planets\TriProgram.cpp" open="0" top="0" tabpos="19">
+		<Cursor position="512" topLine="9" />
+	</File>
+	<File name="src\planets\TriProgram.h" open="0" top="0" tabpos="18">
+		<Cursor position="320" topLine="0" />
+	</File>
+	<File name="src\planets\VolcanoProgram.cpp" open="0" top="0" tabpos="55">
+		<Cursor position="1135" topLine="0" />
+	</File>
+	<File name="src\planets\VolcanoProgram.h" open="0" top="0" tabpos="20">
+		<Cursor position="267" topLine="0" />
+	</File>
+	<File name="src\planets\subprograms\CubeCubes.h" open="0" top="0" tabpos="8">
+		<Cursor position="1519" topLine="84" />
+	</File>
+	<File name="src\planets\subprograms\Diamonds.h" open="0" top="0" tabpos="4">
+		<Cursor position="10681" topLine="430" />
+	</File>
+	<File name="src\planets\subprograms\FiveCubes.h" open="0" top="0" tabpos="6">
+		<Cursor position="1253" topLine="42" />
+	</File>
+	<File name="src\planets\subprograms\Hexes.h" open="0" top="0" tabpos="12">
+		<Cursor position="8541" topLine="309" />
+	</File>
+	<File name="src\planets\subprograms\Towersez.h" open="0" top="0" tabpos="2">
+		<Cursor position="11491" topLine="508" />
+	</File>
+	<File name="src\planets\subprograms\TriFaces.h" open="1" top="0" tabpos="2">
+		<Cursor position="1593" topLine="60" />
+	</File>
+	<File name="src\planets\subprograms\Tris.h" open="0" top="0" tabpos="11">
+		<Cursor position="9381" topLine="455" />
+	</File>
+	<File name="src\planets\subprograms\Volcanoes.h" open="1" top="0" tabpos="3">
+		<Cursor position="1217" topLine="51" />
+	</File>
+	<File name="src\testApp.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="11133" topLine="395" />
+	</File>
+	<File name="src\testApp.h" open="0" top="0" tabpos="9">
+		<Cursor position="770" topLine="15" />
+	</File>
+	<File name="src\utils.cpp" open="0" top="0" tabpos="26">
+		<Cursor position="1492" topLine="0" />
+	</File>
+	<File name="src\utils.h" open="0" top="0" tabpos="9">
+		<Cursor position="517" topLine="0" />
+	</File>
+	<File name="..\lib\animation\Tween.h" open="0" top="0" tabpos="9">
+		<Cursor position="87" topLine="18" />
+	</File>
+	<File name="..\lib\app\Mode.h" open="0" top="0" tabpos="11">
+		<Cursor position="758" topLine="0" />
+	</File>
+	<File name="..\lib\gui\Enableable.h" open="0" top="0" tabpos="30">
+		<Cursor position="435" topLine="0" />
+	</File>
+	<File name="..\lib\gui\FineControls.h" open="0" top="0" tabpos="33">
+		<Cursor position="12" topLine="0" />
+	</File>
+	<File name="..\lib\gui\OBJEditGui.h" open="0" top="0" tabpos="31">
+		<Cursor position="1879" topLine="57" />
+	</File>
+	<File name="..\lib\gui\SceneGui.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="755" topLine="16" />
+	</File>
+	<File name="..\lib\gui\SceneGui.h" open="0" top="0" tabpos="11">
+		<Cursor position="518" topLine="0" />
+	</File>
+	<File name="..\lib\main.cpp" open="0" top="0" tabpos="49">
+		<Cursor position="486" topLine="12" />
+	</File>
+	<File name="..\lib\projection\ProjectedRect.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="684" topLine="0" />
+	</File>
+	<File name="..\lib\scene\EditPoints.h" open="0" top="0" tabpos="41">
+		<Cursor position="1066" topLine="7" />
+	</File>
+	<File name="..\lib\scene\Model.cpp" open="0" top="0" tabpos="34">
+		<Cursor position="107" topLine="0" />
+	</File>
+	<File name="..\lib\scene\Model.h" open="0" top="0" tabpos="35">
+		<Cursor position="1065" topLine="34" />
+	</File>
+	<File name="..\lib\scene\Node.h" open="0" top="0" tabpos="44">
+		<Cursor position="319" topLine="21" />
+	</File>
+	<File name="..\lib\scene\Projector.cpp" open="0" top="0" tabpos="43">
+		<Cursor position="381" topLine="71" />
+	</File>
+	<File name="..\lib\scene\Projector.h" open="0" top="0" tabpos="4">
+		<Cursor position="13" topLine="0" />
+	</File>
+	<File name="..\lib\scene\Scene.cpp" open="0" top="0" tabpos="21">
+		<Cursor position="2047" topLine="5" />
+	</File>
+	<File name="..\lib\scene\Scene.h" open="0" top="0" tabpos="22">
+		<Cursor position="546" topLine="0" />
+	</File>
+	<File name="..\lib\scene\ofScene3d.h" open="0" top="0" tabpos="23">
+		<Cursor position="1491" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

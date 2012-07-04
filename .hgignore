@@ -1,0 +1,20 @@
+syntax: glob
+.DS_Store
+*/.DS_Store
+.gitignore
+*.app/*
+*.xcuserdatad
+*.mode1v3
+*.pbxuser
+*.mov
+*.dll
+*.exe
+*.o
+*.depend
+SphereMapper/bin/gmon.out
+*/gmon.out
+SphereMapper/SphereMapper.layout.cbTemp
+*.cbTemp
+._.DS_Store
+.orig
+*.orig

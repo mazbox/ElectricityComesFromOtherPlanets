@@ -1,0 +1,5 @@
+<properties>
+    <property key="midiPort" value="LPD8"></property>
+    <property key="oscHost" value="localhost"></property>
+    <property key="oscPort" value="12345"></property>
+</properties>

@@ -1,0 +1,7 @@
+<properties>
+<property key="oscHost1" value="localhost"></property>
+    <property key="oscHost2" value="localhost"></property>
+  <!--  <property key="oscHost1" value="192.168.2.2"></property>
+    <property key="oscHost2" value="192.168.2.2"></property>-->
+    <property key="oscPort" value="24680"></property>
+</properties>

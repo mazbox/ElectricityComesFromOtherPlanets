@@ -1,0 +1,10 @@
+<controls>
+    <Toggle_Cam_0flip_X>
+        <name>Cam 0flip X</name>
+        <value>0</value>
+    </Toggle_Cam_0flip_X>
+    <Toggle_Cam_0flip_Y>
+        <name>Cam 0flip Y</name>
+        <value>0</value>
+    </Toggle_Cam_0flip_Y>
+</controls>

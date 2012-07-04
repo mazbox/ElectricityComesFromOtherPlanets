@@ -1,0 +1,17 @@
+<properties>
+ <!--   <property key="camport" value="24680"></property>
+    <property key="render1" value="192.168.5.123"></property>
+    <property key="render2" value="192.168.5.127"></property>
+    <property key="render3" value="192.168.5.127"></property>
+    <property key="render4" value="192.168.5.127"></property>
+    <property key="renderport" value="12345"></property>
+	-->
+
+    <property key="camport" value="24680"></property>
+    <property key="render1" value="192.168.5.101"></property>
+    <property key="render2" value="192.168.5.102"></property>
+    <property key="render3" value="192.168.5.103"></property>
+    <property key="render4" value="192.168.5.104"></property>
+    <property key="renderport" value="12345"></property>
+
+</properties>

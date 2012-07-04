@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SphereMapper" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons\;src\;addons\ofxXmlSettings\libs\;addons\ofxXmlSettings\src\;" />
+		<Build>
+			<Target title="release">
+				<Option output="bin\$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj\release" />
+				<Option external_deps="..\..\..\libs\openFrameworksCompiled\lib\win_cb\openFrameworks.lib;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="../../../libs/openFrameworksCompiled/lib/win_cb/openFrameworks.lib" />
+				</Linker>
+			</Target>
+			<Target title="debug">
+				<Option output="bin\$(PROJECT_NAME)_DEBUG" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj\debug\" />
+				<Option external_deps="..\..\..\libs\openFrameworksCompiled\lib\win_cb\openFrameworksDebug.lib;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="../../../libs/openFrameworksCompiled/lib/win_cb/openFrameworksDebug.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wno-multichar" />
+			<Add directory="..\..\..\libs\glu\include" />
+			<Add directory="..\..\..\libs\freetype\include" />
+			<Add directory="..\..\..\libs\freetype\include\freetype2" />
+			<Add directory="..\..\..\libs\FreeImage\include" />
+			<Add directory="..\..\..\libs\quicktime\include" />
+			<Add directory="..\..\..\libs\rtAudio\include" />
+			<Add directory="..\..\..\libs\fmodex\include" />
+			<Add directory="..\..\..\libs\videoInput\include" />
+			<Add directory="..\..\..\libs\glew\include" />
+			<Add directory="..\..\..\libs\glut\include" />
+			<Add directory="..\..\..\libs\openFrameworks" />
+			<Add directory="..\..\..\libs\openFrameworks\3d" />
+			<Add directory="..\..\..\libs\openFrameworks\app" />
+			<Add directory="..\..\..\libs\openFrameworks\communication" />
+			<Add directory="..\..\..\libs\openFrameworks\events" />
+			<Add directory="..\..\..\libs\openFrameworks\gl" />
+			<Add directory="..\..\..\libs\openFrameworks\graphics" />
+			<Add directory="..\..\..\libs\openFrameworks\math" />
+			<Add directory="..\..\..\libs\openFrameworks\sound" />
+			<Add directory="..\..\..\libs\openFrameworks\types" />
+			<Add directory="..\..\..\libs\openFrameworks\utils" />
+			<Add directory="..\..\..\libs\openFrameworks\video" />
+			<Add directory="..\..\..\libs\poco\include" />
+			<Add directory="..\..\..\libs\tess2\include" />
+			<Add directory="..\..\..\libs\cairo\include\cairo" />
+			<Add directory="..\..\..\addons\ofxXmlSettings\src" />
+			<Add directory="..\..\..\addons\ofxXmlSettings\libs" />
+			<Add directory="src\planets" />
+			<Add directory="..\lib\" />
+			<Add directory="..\lib\animation" />
+			<Add directory="..\lib\app" />
+			<Add directory="..\lib\gui" />
+			<Add directory="..\lib\net" />
+			<Add directory="..\lib\projection" />
+			<Add directory="..\lib\scene" />
+			<Add directory="..\lib\util" />
+			<Add directory="..\..\..\addons\ofxFourUpDisplay" />
+			<Add directory="..\..\..\addons\ofxFourUpDisplay\viewport" />
+			<Add directory="src" />
+			<Add directory="..\..\..\addons\ofxOBJModel" />
+			<Add directory="..\..\..\addons\ofxSettings" />
+			<Add directory="..\..\..\addons\xmlgui\framework" />
+			<Add directory="..\..\..\addons\xmlgui\container" />
+			<Add directory="..\..\..\addons\xmlgui\controls" />
+			<Add directory="..\lib\animation\easing" />
+			<Add directory="..\..\..\addons\ofxOsc\src" />
+			<Add directory="..\..\..\addons\ofxOsc\libs\oscpack\src" />
+			<Add directory="..\..\..\addons\tricks\src" />
+			<Add directory="..\..\..\addons\ofxOsc\libs\oscpack\src\ip" />
+			<Add directory="..\..\..\addons\ofxOsc\libs\oscpack\src\osc" />
+			<Add directory="C:\Users\monsterbox\Documents\openFrameworks\apps\spheres\SphereMapper\src\planets\subprograms" />
+			<Add directory="src\planets\subprograms" />
+		</Compiler>
+		<Linker>
+			<Add library="..\..\..\libs\FreeImage\lib\win_cb\FreeImage.lib" />
+			<Add library="..\..\..\libs\rtAudio\lib\win_cb\librtaudio.a" />
+			<Add library="..\..\..\libs\quicktime\lib\win_cb\qtmlClient.lib" />
+			<Add library="..\..\..\libs\cairo\lib\win_cb\libcairo.a" />
+			<Add library="..\..\..\libs\cairo\lib\win_cb\libpixman-1.a" />
+			<Add library="..\..\..\libs\freetype\lib\win_cb\libfreetype.a" />
+			<Add library="..\..\..\libs\glut\lib\win_cb\libglut.a" />
+			<Add library="..\..\..\libs\videoInput\lib\win_cb\videoInputLib.a" />
+			<Add library="..\..\..\libs\fmodex\lib\win_cb\libfmodex.a" />
+			<Add library="..\..\..\libs\glew\lib\win_cb\glew32s.lib" />
+			<Add library="..\..\..\libs\glu\lib\win_cb\glu32.lib" />
+			<Add library="..\..\..\libs\poco\lib\win_cb\libPocoNetmt.a" />
+			<Add library="..\..\..\libs\poco\lib\win_cb\libPocoUtilmt.a" />
+			<Add library="..\..\..\libs\poco\lib\win_cb\libPocoXMLmt.a" />
+			<Add library="..\..\..\libs\poco\lib\win_cb\libPocoFoundationmt.a" />
+			<Add library="..\..\..\libs\tess2\lib\win_cb\libtess2.a" />
+			<Add library="opengl32" />
+			<Add library="gdi32" />
+			<Add library="msimg32" />
+			<Add library="glu32" />
+			<Add library="dsound" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="strmbase" />
+			<Add library="strmiids" />
+			<Add library="z" />
+			<Add library="uuid" />
+			<Add library="ole32" />
+			<Add library="oleaut32" />
+			<Add library="setupapi" />
+			<Add library="wsock32" />
+			<Add library="ws2_32" />
+			<Add library="Iphlpapi" />
+			<Add library="comdlg32" />
+		</Linker>
+		<ExtraCommands>
+			<Add after='xcopy /e /i /y &quot;$(PROJECT_DIR)..\..\..\export\win_cb\*.dll&quot;  &quot;$(PROJECT_DIR)bin&quot;' />
+			<Add after='cmd /c if not exist &quot;$(PROJECT_DIR)bin/data&quot; mkdir &quot;$(PROJECT_DIR)bin/data&quot;' />
+			<Mode after="always" />
+		</ExtraCommands>
+		<Unit filename="..\..\..\addons\ofxFourUpDisplay\ofxFourUpDisplay.cpp" />
+		<Unit filename="..\..\..\addons\ofxFourUpDisplay\ofxFourUpDisplay.h" />
+		<Unit filename="..\..\..\addons\ofxFourUpDisplay\viewport\OrthoViewport.cpp" />
+		<Unit filename="..\..\..\addons\ofxFourUpDisplay\viewport\OrthoViewport.h" />
+		<Unit filename="..\..\..\addons\ofxFourUpDisplay\viewport\Viewport.cpp" />
+		<Unit filename="..\..\..\addons\ofxFourUpDisplay\viewport\Viewport.h" />
+		<Unit filename="..\..\..\addons\ofxOBJModel\ofxOBJFace.cpp" />
+		<Unit filename="..\..\..\addons\ofxOBJModel\ofxOBJFace.h" />
+		<Unit filename="..\..\..\addons\ofxOBJModel\ofxOBJGroup.cpp" />
+		<Unit filename="..\..\..\addons\ofxOBJModel\ofxOBJGroup.h" />
+		<Unit filename="..\..\..\addons\ofxOBJModel\ofxOBJModel.cpp" />
+		<Unit filename="..\..\..\addons\ofxOBJModel\ofxOBJModel.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\NetworkingUtils.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\PacketListener.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\TimerListener.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\UdpSocket.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\NetworkingUtils.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\UdpSocket.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtilsWin.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocketWin.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\MessageMappingOscPacketListener.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscException.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscHostEndianness.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPacketListener.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOsc.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscArg.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscBundle.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscMessage.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscReceiver.h" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscSender.cpp" />
+		<Unit filename="..\..\..\addons\ofxOsc\src\ofxOscSender.h" />
+		<Unit filename="..\..\..\addons\ofxSettings\ofxSettings.cpp" />
+		<Unit filename="..\..\..\addons\ofxSettings\ofxSettings.h" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+			<Option virtualFolder="addons\ofxXmlSettings\libs" />
+		</Unit>
+		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+			<Option virtualFolder="addons\ofxXmlSettings\libs" />
+		</Unit>
+		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+			<Option virtualFolder="addons\ofxXmlSettings\libs" />
+		</Unit>
+		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+			<Option virtualFolder="addons\ofxXmlSettings\libs" />
+		</Unit>
+		<Unit filename="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+			<Option virtualFolder="addons\ofxXmlSettings\src" />
+		</Unit>
+		<Unit filename="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+			<Option virtualFolder="addons\ofxXmlSettings\src" />
+		</Unit>
+		<Unit filename="..\..\..\addons\tricks\src\tricks\animation\animation.h" />
+		<Unit filename="..\..\..\addons\xmlgui\container\SimpleGui.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\ColorPicker.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Contour.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\DoubleField.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Drawable.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\FPSCounter.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\FileField.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\FloatField.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Grid.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\IntField.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\IntSlider.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Keyboard.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Knob.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\LabeledControl.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\List.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Menu.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\MenuBar.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\MenuItem.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Meter.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Pane.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Panner.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\PushButton.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\SegmentedControl.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Slider.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Slider2D.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Text.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\TextField.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Title.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\Toggle.h" />
+		<Unit filename="..\..\..\addons\xmlgui\controls\VU.h" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\Container.cpp" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\Container.h" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\Control.cpp" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\Control.h" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\Controls.cpp" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\GridSequence.h" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\Gui.cpp" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\Gui.h" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\Instantiator.cpp" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\Instantiator.h" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\Listener.h" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\ParameterInfo.h" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\Resources.cpp" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\Resources.h" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\ofGuiEventDispatcher.cpp" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\ofGuiEventDispatcher.h" />
+		<Unit filename="..\..\..\addons\xmlgui\framework\ofxXmlGui.h" />
+		<Unit filename="src\Colours.cpp" />
+		<Unit filename="src\Colours.h" />
+		<Unit filename="src\Face.h" />
+		<Unit filename="src\Fan.h" />
+		<Unit filename="src\L.h" />
+		<Unit filename="src\Ladder.h" />
+		<Unit filename="src\MidiNotes.h" />
+		<Unit filename="src\Moire.cpp" />
+		<Unit filename="src\Moire.h" />
+		<Unit filename="src\Moire2.h" />
+		<Unit filename="src\PlanetProgram.h" />
+		<Unit filename="src\QuadFace.h" />
+		<Unit filename="src\Star.h" />
+		<Unit filename="src\Stars.cpp" />
+		<Unit filename="src\Tempo.cpp" />
+		<Unit filename="src\Tempo.h" />
+		<Unit filename="src\TriFace.h" />
+		<Unit filename="src\Trigger.h" />
+		<Unit filename="src\planets\CubeCubeProgram.cpp" />
+		<Unit filename="src\planets\CubeCubeProgram.h" />
+		<Unit filename="src\planets\DiamondProgram.cpp" />
+		<Unit filename="src\planets\DiamondProgram.h" />
+		<Unit filename="src\planets\FiveCubesProgram.cpp" />
+		<Unit filename="src\planets\FiveCubesProgram.h" />
+		<Unit filename="src\planets\HexProgram.cpp" />
+		<Unit filename="src\planets\HexProgram.h" />
+		<Unit filename="src\planets\TowersProgram.cpp" />
+		<Unit filename="src\planets\TowersProgram.h" />
+		<Unit filename="src\planets\TriFaceProgram.cpp" />
+		<Unit filename="src\planets\TriFaceProgram.h" />
+		<Unit filename="src\planets\TriProgram.cpp" />
+		<Unit filename="src\planets\TriProgram.h" />
+		<Unit filename="src\planets\VolcanoProgram.cpp" />
+		<Unit filename="src\planets\VolcanoProgram.h" />
+		<Unit filename="src\planets\subprograms\CubeCubes.h" />
+		<Unit filename="src\planets\subprograms\Diamonds.h" />
+		<Unit filename="src\planets\subprograms\FiveCubes.h" />
+		<Unit filename="src\planets\subprograms\Hexes.h" />
+		<Unit filename="src\planets\subprograms\Towersez.h" />
+		<Unit filename="src\planets\subprograms\TriFaces.h" />
+		<Unit filename="src\planets\subprograms\Tris.h" />
+		<Unit filename="src\planets\subprograms\Volcanoes.h" />
+		<Unit filename="src\testApp.cpp">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src\testApp.h">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src\utils.cpp" />
+		<Unit filename="src\utils.h" />
+		<Unit filename="..\lib\animation\Tween.h" />
+		<Unit filename="..\lib\animation\easing\ofxEasing.cpp" />
+		<Unit filename="..\lib\animation\easing\ofxEasing.h" />
+		<Unit filename="..\lib\animation\easing\ofxEasingBack.cpp" />
+		<Unit filename="..\lib\animation\easing\ofxEasingBack.h" />
+		<Unit filename="..\lib\animation\easing\ofxEasingBounce.cpp" />
+		<Unit filename="..\lib\animation\easing\ofxEasingBounce.h" />
+		<Unit filename="..\lib\animation\easing\ofxEasingCirc.cpp" />
+		<Unit filename="..\lib\animation\easing\ofxEasingCirc.h" />
+		<Unit filename="..\lib\animation\easing\ofxEasingCubic.cpp" />
+		<Unit filename="..\lib\animation\easing\ofxEasingCubic.h" />
+		<Unit filename="..\lib\animation\easing\ofxEasingElastic.cpp" />
+		<Unit filename="..\lib\animation\easing\ofxEasingElastic.h" />
+		<Unit filename="..\lib\animation\easing\ofxEasingExpo.cpp" />
+		<Unit filename="..\lib\animation\easing\ofxEasingExpo.h" />
+		<Unit filename="..\lib\animation\easing\ofxEasingLinear.cpp" />
+		<Unit filename="..\lib\animation\easing\ofxEasingLinear.h" />
+		<Unit filename="..\lib\animation\easing\ofxEasingQuad.cpp" />
+		<Unit filename="..\lib\animation\easing\ofxEasingQuad.h" />
+		<Unit filename="..\lib\animation\easing\ofxEasingQuart.cpp" />
+		<Unit filename="..\lib\animation\easing\ofxEasingQuart.h" />
+		<Unit filename="..\lib\animation\easing\ofxEasingQuint.cpp" />
+		<Unit filename="..\lib\animation\easing\ofxEasingQuint.h" />
+		<Unit filename="..\lib\animation\easing\ofxEasingSine.cpp" />
+		<Unit filename="..\lib\animation\easing\ofxEasingSine.h" />
+		<Unit filename="..\lib\app\App.h" />
+		<Unit filename="..\lib\app\Mode.h" />
+		<Unit filename="..\lib\app\Parameters.h" />
+		<Unit filename="..\lib\constants.h" />
+		<Unit filename="..\lib\gui\Enableable.h" />
+		<Unit filename="..\lib\gui\FineControls.h" />
+		<Unit filename="..\lib\gui\OBJEditGui.h" />
+		<Unit filename="..\lib\gui\SceneGui.cpp" />
+		<Unit filename="..\lib\gui\SceneGui.h" />
+		<Unit filename="..\lib\main.cpp" />
+		<Unit filename="..\lib\projection\Plane.h" />
+		<Unit filename="..\lib\projection\ProjectedRect.cpp" />
+		<Unit filename="..\lib\projection\ProjectedRect.h" />
+		<Unit filename="..\lib\scene\EditPoints.h" />
+		<Unit filename="..\lib\scene\Light.h" />
+		<Unit filename="..\lib\scene\Model.cpp" />
+		<Unit filename="..\lib\scene\Model.h" />
+		<Unit filename="..\lib\scene\Node.h" />
+		<Unit filename="..\lib\scene\Projector.cpp" />
+		<Unit filename="..\lib\scene\Projector.h" />
+		<Unit filename="..\lib\scene\Scene.cpp" />
+		<Unit filename="..\lib\scene\Scene.h" />
+		<Unit filename="..\lib\scene\ofScene3d.h" />
+		<Unit filename="..\lib\util\GLHelpers.h" />
+		<Unit filename="..\lib\util\base64.cpp" />
+		<Unit filename="..\lib\util\base64.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

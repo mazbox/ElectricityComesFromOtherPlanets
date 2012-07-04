@@ -1,0 +1,15 @@
+
+TODO:
+====
+
+
+
+- fix rotation to not fade out so quickly
+- winstates - need to switch between winstates
+- false kinects triggering
+- do sound for winstates
+
+
+
+do some cad
+get back to pet shop boys guys
